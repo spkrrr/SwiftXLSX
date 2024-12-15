@@ -28,7 +28,7 @@ final public class XSheet{
     var ColW : [Int:Int] = [:]
     private var indexcells : [String:XCell] = [:]
     var xml : String?
-    var fix:XCoords = XCoords()
+    public var fix: XCoords = XCoords()
     var drawingsxml:String?
     var drawingsxmlrels:String?
     var drawingsSheetrels:String?
